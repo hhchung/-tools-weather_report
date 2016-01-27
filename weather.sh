@@ -79,7 +79,6 @@ while getopts ":hl:u:acsd": op ; do
         a)
             report_type="ALL";
             flag_sun=true
-            #echo "AAAAA"
             ;;
         c)
             report_type="Current"
