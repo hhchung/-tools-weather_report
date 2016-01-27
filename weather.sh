@@ -47,6 +47,7 @@ if [ -f $home_dir/.weather.conf ] ; then
     arr_name=`echo -e "$search_name"  | tr "," "\n"`
 
 else
+    :
     #echo "No default ~/.weather.conf file"
 fi
 valid=true
@@ -110,6 +111,7 @@ if [  "$valid" = true  ]; then
         echo "Must specify type of information"
         valid=false
     else
+    :
     fi
 fi
 
