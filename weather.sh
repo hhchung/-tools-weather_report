@@ -36,7 +36,7 @@ getdata () {
 #configure file
 home_dir=`eval echo "~"`
 if [ -f $home_dir/.weather.conf ] ; then
-    echo "Default Configuration (~/.weather.conf) exists"
+#echo "Default Configuration (~/.weather.conf) exists"
     while read filein ; do
         file="$file\n$filein"
     done < $home_dir/.weather.conf
