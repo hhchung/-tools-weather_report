@@ -4,8 +4,9 @@
 
 ## Usage
 ```bash
-git clone tools-weather_report
+git clone https://github.com/hhchung/tools-weather_report.git
 chmod a+x  tools-weather_report/weather.sh
+cd tools-weather_report
 ./weather [-h] [-l location] [-u unit] [-a|-c|-d day|-s]
 ```
 
